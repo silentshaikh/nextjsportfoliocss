@@ -1,0 +1,116 @@
+.about-profile{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 50px 0;
+}
+.profile-info h1{
+color: #01C6AF;
+padding-bottom: 10px;
+}
+.profile-info p{
+    width: 500px;
+}
+.info-img img{
+    border-radius: 50%;
+}
+.education-section{
+    padding: 40px 0;
+}
+.education-section h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    border: 3px solid #01C6AF;
+    width: 250px;
+    margin: 0 auto;
+}
+.education-box{
+    padding: 40px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.education{
+    background: rgba(255, 255, 255, 0.2);
+        box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+        backdrop-filter: blur(5px);
+        -webkit-backdrop-filter: blur(5px);
+        border: 1px solid rgba(255, 255, 255, 0.3);
+        padding: 10px 20px;
+}
+.education h3{
+    text-transform: uppercase;
+    padding: 10px 0;
+}
+.detail p strong{
+    color: #01C6AF;
+}
+/* about profile */
+@media only screen and (max-width:850px) {
+    .profile-info p{
+        font-size: 15px;
+    }
+    .info-img img{
+        height: 250px;
+        width: 250px;
+    }
+}
+@media only screen and (max-width:770px) {
+    .profile-info p{
+        /* font-size: 12px; */
+        width: 400px;
+    }
+  
+}
+@media only screen and (max-width:680px) {
+    .profile-info p{
+        font-size: 13px;
+        width: 350px;
+    }
+    .info-img img{
+        height: 220px;
+        width: 220px;
+    }
+}
+@media only screen and (max-width:600px) {
+    .about-profile{
+        flex-direction: column-reverse;
+    }
+    .profile-info{
+        padding-top: 30px;
+    }
+}
+@media only screen and (max-width:370px) {
+    .profile-info p{
+        width: 300px;
+    }
+}
+@media only screen and (max-width:320px) {
+    .profile-info p{
+        width: 250px;
+    }
+}
+
+/* about education */
+@media only screen and (max-width:842px) {
+    .education{
+        margin-bottom: 20px;
+    }
+}
+@media only screen and (max-width:455px) {
+ .education {
+    padding: 5px 10px;
+ }   
+}
+@media only screen and (max-width:435px) {
+    .education {
+       padding: 5px 5px;
+    }   
+   }
+   @media only screen and (max-width:357px) {
+    .education {
+       padding: 3px;
+    }   
+}   
