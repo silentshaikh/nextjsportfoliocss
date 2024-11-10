@@ -3,7 +3,7 @@ import usePortfolioHook from "@/hooks/portfolioHook"
 import { navList } from "@/utils/helper"
 import Link from "next/link"
 function NavList() {
-  const {nav,toggleNavList} = usePortfolioHook();
+  const {nav} = usePortfolioHook();
   return (
     <ul className={`li-list ${nav ? 'show': 'hide'}`}>
       {navList.map((e) => {
