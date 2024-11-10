@@ -14,9 +14,9 @@ function HeroImage() {
       height={410}
       />
       <div className="img-icon">
-        {imgList.map((e) => {
+        {imgList.map((e,i) => {
           return <Image
-        
+          key={i}
           src={`/images/${e}`}
           alt={'icon'}
           height={65}
